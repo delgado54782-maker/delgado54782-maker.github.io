@@ -1,17 +1,22 @@
 body {
-  margin: 0px;
-  background-color: #202737;
+  margin: 0;
+  background: linear-gradient(180deg, #bde9ff 0%, #eaf9ff 55%, #d8f3dc 100%);
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 canvas {
-  background-color: lightblue;
-  margin: 20px;
-  border-radius: 15px;
-  border: 5px solid rgba(118, 0, 233, 0.375);
+  display: block;
+  width: min(1400px, 96vw);
+  height: auto;
+  margin: 16px;
+  background-color: #9bdcf5;
+  border: 6px solid #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 14px 30px rgba(39, 75, 99, 0.25);
 }
 
 img {
